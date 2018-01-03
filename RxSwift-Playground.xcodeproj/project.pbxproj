@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		597981E21FFCCB4600848A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597981E11FFCCB4600848A49 /* AppDelegate.swift */; };
-		597981E41FFCCB4600848A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597981E31FFCCB4600848A49 /* ViewController.swift */; };
-		597981E71FFCCB4600848A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597981E51FFCCB4600848A49 /* Main.storyboard */; };
 		597981E91FFCCB4600848A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597981E81FFCCB4600848A49 /* Assets.xcassets */; };
 		597981EC1FFCCB4600848A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597981EA1FFCCB4600848A49 /* LaunchScreen.storyboard */; };
 		597981F71FFCCB4600848A49 /* RxSwift_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597981F61FFCCB4600848A49 /* RxSwift_PlaygroundTests.swift */; };
 		597982021FFCCB4600848A49 /* RxSwift_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597982011FFCCB4600848A49 /* RxSwift_PlaygroundUITests.swift */; };
+		597982101FFCCE9400848A49 /* FSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5979820F1FFCCE9400848A49 /* FSUtils.swift */; };
+		5979821A1FFCD02700848A49 /* FSMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597982181FFCD02700848A49 /* FSMainViewController.swift */; };
+		5979821B1FFCD02700848A49 /* FSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 597982191FFCD02700848A49 /* FSMainViewController.xib */; };
 		5BB0977258B68DC8BE009BAD /* Pods_RxSwift_PlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06C3EA9923636EB3191B4FC /* Pods_RxSwift_PlaygroundTests.framework */; };
 		689CCBBED3AE2306512A005D /* Pods_RxSwift_PlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1FC53046E894CE7F08354E /* Pods_RxSwift_PlaygroundUITests.framework */; };
 		F5C5DE6E69667BE6E6497BA5 /* Pods_RxSwift_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B85DC33B0E4DD80F020FDE /* Pods_RxSwift_Playground.framework */; };
@@ -40,8 +41,6 @@
 		49F80D963CB9FCB09560732B /* Pods-RxSwift-PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-PlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-PlaygroundTests/Pods-RxSwift-PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
 		597981DE1FFCCB4600848A49 /* RxSwift-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		597981E11FFCCB4600848A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		597981E31FFCCB4600848A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		597981E61FFCCB4600848A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		597981E81FFCCB4600848A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597981EB1FFCCB4600848A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		597981ED1FFCCB4600848A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,9 @@
 		597981FD1FFCCB4600848A49 /* RxSwift-PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift-PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		597982011FFCCB4600848A49 /* RxSwift_PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_PlaygroundUITests.swift; sourceTree = "<group>"; };
 		597982031FFCCB4600848A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5979820F1FFCCE9400848A49 /* FSUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSUtils.swift; sourceTree = "<group>"; };
+		597982181FFCD02700848A49 /* FSMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSMainViewController.swift; sourceTree = "<group>"; };
+		597982191FFCD02700848A49 /* FSMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSMainViewController.xib; sourceTree = "<group>"; };
 		81EE9A3852EEBA3759230AEE /* Pods-RxSwift-PlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-PlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-PlaygroundUITests/Pods-RxSwift-PlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1B85DC33B0E4DD80F020FDE /* Pods_RxSwift_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3948D5F632A55C9E71203D6 /* Pods-RxSwift-PlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-PlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-PlaygroundUITests/Pods-RxSwift-PlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,12 +139,14 @@
 		597981E01FFCCB4600848A49 /* RxSwift-Playground */ = {
 			isa = PBXGroup;
 			children = (
+				597982111FFCCF5500848A49 /* Model */,
+				597982121FFCCF5500848A49 /* ModelView */,
+				597982131FFCCF5600848A49 /* View */,
 				597981E11FFCCB4600848A49 /* AppDelegate.swift */,
-				597981E31FFCCB4600848A49 /* ViewController.swift */,
-				597981E51FFCCB4600848A49 /* Main.storyboard */,
 				597981E81FFCCB4600848A49 /* Assets.xcassets */,
 				597981EA1FFCCB4600848A49 /* LaunchScreen.storyboard */,
 				597981ED1FFCCB4600848A49 /* Info.plist */,
+				5979820F1FFCCE9400848A49 /* FSUtils.swift */,
 			);
 			path = "RxSwift-Playground";
 			sourceTree = "<group>";
@@ -163,6 +167,29 @@
 				597982031FFCCB4600848A49 /* Info.plist */,
 			);
 			path = "RxSwift-PlaygroundUITests";
+			sourceTree = "<group>";
+		};
+		597982111FFCCF5500848A49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		597982121FFCCF5500848A49 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		597982131FFCCF5600848A49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				597982181FFCD02700848A49 /* FSMainViewController.swift */,
+				597982191FFCD02700848A49 /* FSMainViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,9 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5979821B1FFCD02700848A49 /* FSMainViewController.xib in Resources */,
 				597981EC1FFCCB4600848A49 /* LaunchScreen.storyboard in Resources */,
 				597981E91FFCCB4600848A49 /* Assets.xcassets in Resources */,
-				597981E71FFCCB4600848A49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +487,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597981E41FFCCB4600848A49 /* ViewController.swift in Sources */,
+				597982101FFCCE9400848A49 /* FSUtils.swift in Sources */,
+				5979821A1FFCD02700848A49 /* FSMainViewController.swift in Sources */,
 				597981E21FFCCB4600848A49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,14 +525,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		597981E51FFCCB4600848A49 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				597981E61FFCCB4600848A49 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		597981EA1FFCCB4600848A49 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -631,6 +651,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78NS763325;
 				INFOPLIST_FILE = "RxSwift-Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FS.RxSwift-Playground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -647,6 +668,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78NS763325;
 				INFOPLIST_FILE = "RxSwift-Playground/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FS.RxSwift-Playground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
