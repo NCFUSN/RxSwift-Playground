@@ -53,6 +53,7 @@
 		5979820F1FFCCE9400848A49 /* FSUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSUtils.swift; sourceTree = "<group>"; };
 		597982181FFCD02700848A49 /* FSMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSMainViewController.swift; sourceTree = "<group>"; };
 		597982191FFCD02700848A49 /* FSMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSMainViewController.xib; sourceTree = "<group>"; };
+		5979821D1FFCD35700848A49 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		81EE9A3852EEBA3759230AEE /* Pods-RxSwift-PlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-PlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-PlaygroundUITests/Pods-RxSwift-PlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B1B85DC33B0E4DD80F020FDE /* Pods_RxSwift_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3948D5F632A55C9E71203D6 /* Pods-RxSwift-PlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-PlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-PlaygroundUITests/Pods-RxSwift-PlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 		597981E01FFCCB4600848A49 /* RxSwift-Playground */ = {
 			isa = PBXGroup;
 			children = (
+				5979821C1FFCD30300848A49 /* Playgrounds */,
 				597982111FFCCF5500848A49 /* Model */,
 				597982121FFCCF5500848A49 /* ModelView */,
 				597982131FFCCF5600848A49 /* View */,
@@ -191,6 +193,14 @@
 			);
 			path = View;
 			sourceTree = "<group>";
+		};
+		5979821C1FFCD30300848A49 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				5979821D1FFCD35700848A49 /* Observables.playground */,
+			);
+			path = Playgrounds;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
