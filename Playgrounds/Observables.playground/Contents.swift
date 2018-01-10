@@ -10,10 +10,7 @@ import Foundation
 “Observable is just a sequence, with some special powers. One of them, in fact the most important one, is that it is asynchronous. Observables produce events, the process of which is referred to as emitting, over a period of time. ”
 
 Excerpt From: By Marin Todorov. “RxSwift - Reactive Programming with Swift.” iBooks.
- 
  */
-
-
 
 func example(of description: String, action: () -> Void) {
     print("\n--- Example of:", description, "---")
@@ -152,7 +149,7 @@ example(of: "DisposeBag") {
 
 // “Another way to specify all events that an observable will emit to subscribers is by using the create operator.”
 
-// “The create operator takes a single parameter named subscribe. Its job is to provide the implementation of calling subscribe on the observable. In other words, it defines all the events that will be emitted to subscribers. Option-click on create.”
+// “The create operator takes a single parameter named subscribe. Its job is to provide the implementation of calling subscribe on the observable. In other words, it defines all the events that will be emitted to subscribers.”
 
 example(of: "create") {
 
@@ -164,7 +161,6 @@ Observable<String>.create { observer in
     observer.onNext("?")
     return Disposables.create()
     }
-    
     .subscribe(
     
         onNext: { print($0) },
@@ -265,6 +261,3 @@ example(of: "Single") {
     }
         .disposed(by: disposeBag)
 }
-
-
-

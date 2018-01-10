@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		49F80D963CB9FCB09560732B /* Pods-RxSwift-PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-PlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-PlaygroundTests/Pods-RxSwift-PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		5958731C20061AE700BE169E /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		597981DE1FFCCB4600848A49 /* RxSwift-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		597981E11FFCCB4600848A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		597981E81FFCCB4600848A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -197,6 +198,7 @@
 		5979821C1FFCD30300848A49 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				5958731C20061AE700BE169E /* Subjects.playground */,
 				5979821D1FFCD35700848A49 /* Observables.playground */,
 			);
 			path = Playgrounds;
