@@ -11,6 +11,7 @@
 		592A58CB200766A8002FDBDF /* ObservablesAndSubjectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592A58C9200766A8002FDBDF /* ObservablesAndSubjectsViewController.xib */; };
 		592A58CE20076849002FDBDF /* FSMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A58CC20076849002FDBDF /* FSMainTableViewController.swift */; };
 		592A58CF20076849002FDBDF /* FSMainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592A58CD20076849002FDBDF /* FSMainTableViewController.xib */; };
+		592A58D120076B1C002FDBDF /* FSTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A58D020076B1C002FDBDF /* FSTopic.swift */; };
 		597981E21FFCCB4600848A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597981E11FFCCB4600848A49 /* AppDelegate.swift */; };
 		597981E91FFCCB4600848A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597981E81FFCCB4600848A49 /* Assets.xcassets */; };
 		597981EC1FFCCB4600848A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597981EA1FFCCB4600848A49 /* LaunchScreen.storyboard */; };
@@ -45,6 +46,7 @@
 		592A58C9200766A8002FDBDF /* ObservablesAndSubjectsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObservablesAndSubjectsViewController.xib; sourceTree = "<group>"; };
 		592A58CC20076849002FDBDF /* FSMainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSMainTableViewController.swift; sourceTree = "<group>"; };
 		592A58CD20076849002FDBDF /* FSMainTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSMainTableViewController.xib; sourceTree = "<group>"; };
+		592A58D020076B1C002FDBDF /* FSTopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSTopic.swift; sourceTree = "<group>"; };
 		5958731C20061AE700BE169E /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		597981DE1FFCCB4600848A49 /* RxSwift-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		597981E11FFCCB4600848A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 		597982111FFCCF5500848A49 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				592A58D020076B1C002FDBDF /* FSTopic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				592A58CA200766A8002FDBDF /* ObservablesAndSubjectsViewController.swift in Sources */,
 				597981E21FFCCB4600848A49 /* AppDelegate.swift in Sources */,
 				592A58CE20076849002FDBDF /* FSMainTableViewController.swift in Sources */,
+				592A58D120076B1C002FDBDF /* FSTopic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
