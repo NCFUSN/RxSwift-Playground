@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        let mainViewController = FSMainViewController(nibName: "FSMainViewController", bundle: nil)
+        let mainViewController = FSMainTableViewController(nibName: "FSMainTableViewController", bundle: nil)
         window?.rootViewController = UINavigationController(rootViewController: mainViewController)
         
         return true

@@ -1,14 +1,18 @@
-//
-//  FSMainViewController.swift
-//  RxSwift-Playground
-//
-//  Created by Nathan Furman on 1/3/18.
-//  Copyright © 2018 Nathan Furman. All rights reserved.
-//
+///**
+
+/**
+
+RxSwift-Playground
+
+Created by: Nathan Furman on 1/11/18
+Email: ncfusn@gmail.com
+Copyright (c) 2018 Nathan Furman, All Rights Recerved
+ 
+ */
 
 import UIKit
 
-class FSMainViewController: UIViewController {
+class ObservablesAndSubjectsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
